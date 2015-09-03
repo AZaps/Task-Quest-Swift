@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E71293CE1B86E0B000FFF3A9 /* TaskQuestSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71293CD1B86E0B000FFF3A9 /* TaskQuestSettingsViewController.swift */; };
+		E7310B451B7BFCCE00F90A9B /* CompletedCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7310B441B7BFCCE00F90A9B /* CompletedCellViewController.swift */; };
+		E7310B471B7C00C400F90A9B /* CompletedQuest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7310B461B7C00C400F90A9B /* CompletedQuest.swift */; };
+		E759C1CB1B7FA18200A7D820 /* QuestCoreDataEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E759C1CA1B7FA18200A7D820 /* QuestCoreDataEvents.swift */; };
+		E777E9E81B98A2E70007A7C3 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = E777E9E71B98A2E70007A7C3 /* LICENSE.txt */; settings = {ASSET_TAGS = (); }; };
+		E7822D761B6FD6FD00A3D8ED /* ActiveCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7822D751B6FD6FD00A3D8ED /* ActiveCellViewController.swift */; };
+		E784A2771B753C6E00845E20 /* CustomTabBarControllerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E784A2761B753C6E00845E20 /* CustomTabBarControllerClass.swift */; };
+		E7C375BE1B6079CD000FB655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C375BD1B6079CD000FB655 /* AppDelegate.swift */; };
+		E7C375C61B6079CD000FB655 /* Task_Quest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7C375C41B6079CD000FB655 /* Task_Quest.xcdatamodeld */; };
+		E7C375CB1B6079CD000FB655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C375C91B6079CD000FB655 /* LaunchScreen.storyboard */; };
+		E7C375D61B6079CD000FB655 /* Task_QuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C375D51B6079CD000FB655 /* Task_QuestTests.swift */; };
+		E7C375E11B6079CE000FB655 /* Task_QuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C375E01B6079CE000FB655 /* Task_QuestUITests.swift */; };
+		E7C375F01B6079DD000FB655 /* AddNewItemModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C375EE1B6079DD000FB655 /* AddNewItemModalView.swift */; };
+		E7C375F11B6079DD000FB655 /* NewQuest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C375EF1B6079DD000FB655 /* NewQuest.swift */; };
+		E7C375F31B607A15000FB655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C375F21B607A15000FB655 /* Main.storyboard */; };
+		E7C375F91B607A28000FB655 /* ActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C375F41B607A28000FB655 /* ActiveViewController.swift */; };
+		E7C375FA1B607A28000FB655 /* CompletedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C375F51B607A28000FB655 /* CompletedViewController.swift */; };
+		E7C375FC1B607A28000FB655 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C375F71B607A28000FB655 /* FirstViewController.swift */; };
+		E7C375FD1B607A28000FB655 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C375F81B607A28000FB655 /* SecondViewController.swift */; };
+		E7C375FF1B607A7B000FB655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C375FE1B607A7B000FB655 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7C375D21B6079CD000FB655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C375B21B6079CD000FB655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C375B91B6079CD000FB655;
+			remoteInfo = "Task Quest";
+		};
+		E7C375DD1B6079CD000FB655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C375B21B6079CD000FB655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C375B91B6079CD000FB655;
+			remoteInfo = "Task Quest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E71293CB1B86B6A000FFF3A9 /* Task QuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task QuestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71293CC1B86B6A000FFF3A9 /* Task QuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task QuestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71293CD1B86E0B000FFF3A9 /* TaskQuestSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskQuestSettingsViewController.swift; sourceTree = "<group>"; };
+		E7310B441B7BFCCE00F90A9B /* CompletedCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedCellViewController.swift; sourceTree = "<group>"; };
+		E7310B461B7C00C400F90A9B /* CompletedQuest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompletedQuest.swift; path = "Task Quest/CompletedQuest.swift"; sourceTree = "<group>"; };
+		E759C1CA1B7FA18200A7D820 /* QuestCoreDataEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestCoreDataEvents.swift; sourceTree = "<group>"; };
+		E777E9E71B98A2E70007A7C3 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		E7822D721B6FCDF500A3D8ED /* Task Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task Quest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7822D751B6FD6FD00A3D8ED /* ActiveCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveCellViewController.swift; sourceTree = "<group>"; };
+		E784A2761B753C6E00845E20 /* CustomTabBarControllerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabBarControllerClass.swift; path = "Task Quest/CustomTabBarControllerClass.swift"; sourceTree = "<group>"; };
+		E7C375BD1B6079CD000FB655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7C375C51B6079CD000FB655 /* Task_Quest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Task_Quest.xcdatamodel; sourceTree = "<group>"; };
+		E7C375CA1B6079CD000FB655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7C375CC1B6079CD000FB655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C375D51B6079CD000FB655 /* Task_QuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_QuestTests.swift; sourceTree = "<group>"; };
+		E7C375D71B6079CD000FB655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C375E01B6079CE000FB655 /* Task_QuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_QuestUITests.swift; sourceTree = "<group>"; };
+		E7C375E21B6079CE000FB655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C375EE1B6079DD000FB655 /* AddNewItemModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNewItemModalView.swift; path = ../AddNewItemModalView.swift; sourceTree = "<group>"; };
+		E7C375EF1B6079DD000FB655 /* NewQuest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewQuest.swift; sourceTree = "<group>"; };
+		E7C375F21B607A15000FB655 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		E7C375F41B607A28000FB655 /* ActiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveViewController.swift; sourceTree = "<group>"; };
+		E7C375F51B607A28000FB655 /* CompletedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedViewController.swift; sourceTree = "<group>"; };
+		E7C375F71B607A28000FB655 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		E7C375F81B607A28000FB655 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E7C375FE1B607A7B000FB655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7C375B71B6079CD000FB655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C375CE1B6079CD000FB655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C375D91B6079CD000FB655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7C375B11B6079CD000FB655 = {
+			isa = PBXGroup;
+			children = (
+				E759C1CA1B7FA18200A7D820 /* QuestCoreDataEvents.swift */,
+				E7C375EF1B6079DD000FB655 /* NewQuest.swift */,
+				E7310B461B7C00C400F90A9B /* CompletedQuest.swift */,
+				E784A2761B753C6E00845E20 /* CustomTabBarControllerClass.swift */,
+				E7C375BC1B6079CD000FB655 /* Task Quest */,
+				E7C375D41B6079CD000FB655 /* Task QuestTests */,
+				E7C375DF1B6079CE000FB655 /* Task QuestUITests */,
+				E7822D721B6FCDF500A3D8ED /* Task Quest.app */,
+				E71293CB1B86B6A000FFF3A9 /* Task QuestTests.xctest */,
+				E71293CC1B86B6A000FFF3A9 /* Task QuestUITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		E7C375BC1B6079CD000FB655 /* Task Quest */ = {
+			isa = PBXGroup;
+			children = (
+				E7C375BD1B6079CD000FB655 /* AppDelegate.swift */,
+				E7C375F71B607A28000FB655 /* FirstViewController.swift */,
+				E7C375EE1B6079DD000FB655 /* AddNewItemModalView.swift */,
+				E71293CD1B86E0B000FFF3A9 /* TaskQuestSettingsViewController.swift */,
+				E7C7A4461B853C55008DF245 /* Active Quest Controllers */,
+				E7C7A4471B853C88008DF245 /* Completed Quest Controllers */,
+				E7C375F81B607A28000FB655 /* SecondViewController.swift */,
+				E7C375C91B6079CD000FB655 /* LaunchScreen.storyboard */,
+				E7C375F21B607A15000FB655 /* Main.storyboard */,
+				E777E9E71B98A2E70007A7C3 /* LICENSE.txt */,
+				E7C375FE1B607A7B000FB655 /* Assets.xcassets */,
+				E7C375CC1B6079CD000FB655 /* Info.plist */,
+				E7C375C41B6079CD000FB655 /* Task_Quest.xcdatamodeld */,
+			);
+			path = "Task Quest";
+			sourceTree = "<group>";
+		};
+		E7C375D41B6079CD000FB655 /* Task QuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7C375D51B6079CD000FB655 /* Task_QuestTests.swift */,
+				E7C375D71B6079CD000FB655 /* Info.plist */,
+			);
+			path = "Task QuestTests";
+			sourceTree = "<group>";
+		};
+		E7C375DF1B6079CE000FB655 /* Task QuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7C375E01B6079CE000FB655 /* Task_QuestUITests.swift */,
+				E7C375E21B6079CE000FB655 /* Info.plist */,
+			);
+			path = "Task QuestUITests";
+			sourceTree = "<group>";
+		};
+		E7C7A4461B853C55008DF245 /* Active Quest Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7C375F41B607A28000FB655 /* ActiveViewController.swift */,
+				E7822D751B6FD6FD00A3D8ED /* ActiveCellViewController.swift */,
+			);
+			name = "Active Quest Controllers";
+			sourceTree = "<group>";
+		};
+		E7C7A4471B853C88008DF245 /* Completed Quest Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7C375F51B607A28000FB655 /* CompletedViewController.swift */,
+				E7310B441B7BFCCE00F90A9B /* CompletedCellViewController.swift */,
+			);
+			name = "Completed Quest Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7C375B91B6079CD000FB655 /* Task Quest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C375E51B6079CE000FB655 /* Build configuration list for PBXNativeTarget "Task Quest" */;
+			buildPhases = (
+				E7C375B61B6079CD000FB655 /* Sources */,
+				E7C375B71B6079CD000FB655 /* Frameworks */,
+				E7C375B81B6079CD000FB655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Task Quest";
+			productName = "Task Quest";
+			productReference = E7822D721B6FCDF500A3D8ED /* Task Quest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7C375D01B6079CD000FB655 /* Task QuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C375E81B6079CE000FB655 /* Build configuration list for PBXNativeTarget "Task QuestTests" */;
+			buildPhases = (
+				E7C375CD1B6079CD000FB655 /* Sources */,
+				E7C375CE1B6079CD000FB655 /* Frameworks */,
+				E7C375CF1B6079CD000FB655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7C375D31B6079CD000FB655 /* PBXTargetDependency */,
+			);
+			name = "Task QuestTests";
+			productName = "Task QuestTests";
+			productReference = E71293CB1B86B6A000FFF3A9 /* Task QuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7C375DB1B6079CD000FB655 /* Task QuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C375EB1B6079CE000FB655 /* Build configuration list for PBXNativeTarget "Task QuestUITests" */;
+			buildPhases = (
+				E7C375D81B6079CD000FB655 /* Sources */,
+				E7C375D91B6079CD000FB655 /* Frameworks */,
+				E7C375DA1B6079CD000FB655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7C375DE1B6079CD000FB655 /* PBXTargetDependency */,
+			);
+			name = "Task QuestUITests";
+			productName = "Task QuestUITests";
+			productReference = E71293CC1B86B6A000FFF3A9 /* Task QuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7C375B21B6079CD000FB655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Anthony Zaprzalka";
+				TargetAttributes = {
+					E7C375B91B6079CD000FB655 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 64ZG4H92G4;
+					};
+					E7C375D01B6079CD000FB655 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E7C375B91B6079CD000FB655;
+					};
+					E7C375DB1B6079CD000FB655 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E7C375B91B6079CD000FB655;
+					};
+				};
+			};
+			buildConfigurationList = E7C375B51B6079CD000FB655 /* Build configuration list for PBXProject "Task Quest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7C375B11B6079CD000FB655;
+			productRefGroup = E7C375B11B6079CD000FB655;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7C375B91B6079CD000FB655 /* Task Quest */,
+				E7C375D01B6079CD000FB655 /* Task QuestTests */,
+				E7C375DB1B6079CD000FB655 /* Task QuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7C375B81B6079CD000FB655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E777E9E81B98A2E70007A7C3 /* LICENSE.txt in Resources */,
+				E7C375CB1B6079CD000FB655 /* LaunchScreen.storyboard in Resources */,
+				E7C375FF1B607A7B000FB655 /* Assets.xcassets in Resources */,
+				E7C375F31B607A15000FB655 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C375CF1B6079CD000FB655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C375DA1B6079CD000FB655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7C375B61B6079CD000FB655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C375FA1B607A28000FB655 /* CompletedViewController.swift in Sources */,
+				E71293CE1B86E0B000FFF3A9 /* TaskQuestSettingsViewController.swift in Sources */,
+				E784A2771B753C6E00845E20 /* CustomTabBarControllerClass.swift in Sources */,
+				E7C375C61B6079CD000FB655 /* Task_Quest.xcdatamodeld in Sources */,
+				E7C375FD1B607A28000FB655 /* SecondViewController.swift in Sources */,
+				E7310B451B7BFCCE00F90A9B /* CompletedCellViewController.swift in Sources */,
+				E7822D761B6FD6FD00A3D8ED /* ActiveCellViewController.swift in Sources */,
+				E7C375FC1B607A28000FB655 /* FirstViewController.swift in Sources */,
+				E7310B471B7C00C400F90A9B /* CompletedQuest.swift in Sources */,
+				E759C1CB1B7FA18200A7D820 /* QuestCoreDataEvents.swift in Sources */,
+				E7C375F91B607A28000FB655 /* ActiveViewController.swift in Sources */,
+				E7C375F01B6079DD000FB655 /* AddNewItemModalView.swift in Sources */,
+				E7C375BE1B6079CD000FB655 /* AppDelegate.swift in Sources */,
+				E7C375F11B6079DD000FB655 /* NewQuest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C375CD1B6079CD000FB655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C375D61B6079CD000FB655 /* Task_QuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C375D81B6079CD000FB655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C375E11B6079CE000FB655 /* Task_QuestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7C375D31B6079CD000FB655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C375B91B6079CD000FB655 /* Task Quest */;
+			targetProxy = E7C375D21B6079CD000FB655 /* PBXContainerItemProxy */;
+		};
+		E7C375DE1B6079CD000FB655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C375B91B6079CD000FB655 /* Task Quest */;
+			targetProxy = E7C375DD1B6079CD000FB655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7C375C91B6079CD000FB655 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7C375CA1B6079CD000FB655 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7C375E31B6079CE000FB655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7C375E41B6079CE000FB655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7C375E61B6079CE000FB655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Task Quest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zcreations.Task-Quest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E7C375E71B6079CE000FB655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Task Quest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zcreations.Task-Quest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		E7C375E91B6079CE000FB655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Task QuestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zcreations.Task-QuestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Task Quest.app/Task Quest";
+			};
+			name = Debug;
+		};
+		E7C375EA1B6079CE000FB655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Task QuestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zcreations.Task-QuestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Task Quest.app/Task Quest";
+			};
+			name = Release;
+		};
+		E7C375EC1B6079CE000FB655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Task QuestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zcreations.Task-QuestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Task Quest";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E7C375ED1B6079CE000FB655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Task QuestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zcreations.Task-QuestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Task Quest";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7C375B51B6079CD000FB655 /* Build configuration list for PBXProject "Task Quest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C375E31B6079CE000FB655 /* Debug */,
+				E7C375E41B6079CE000FB655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C375E51B6079CE000FB655 /* Build configuration list for PBXNativeTarget "Task Quest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C375E61B6079CE000FB655 /* Debug */,
+				E7C375E71B6079CE000FB655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C375E81B6079CE000FB655 /* Build configuration list for PBXNativeTarget "Task QuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C375E91B6079CE000FB655 /* Debug */,
+				E7C375EA1B6079CE000FB655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C375EB1B6079CE000FB655 /* Build configuration list for PBXNativeTarget "Task QuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C375EC1B6079CE000FB655 /* Debug */,
+				E7C375ED1B6079CE000FB655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E7C375C41B6079CD000FB655 /* Task_Quest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7C375C51B6079CD000FB655 /* Task_Quest.xcdatamodel */,
+			);
+			currentVersion = E7C375C51B6079CD000FB655 /* Task_Quest.xcdatamodel */;
+			path = Task_Quest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E7C375B21B6079CD000FB655 /* Project object */;
+}
