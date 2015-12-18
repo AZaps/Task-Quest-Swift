@@ -388,7 +388,7 @@ class ActiveCellViewController: UIViewController, UITextViewDelegate {
         
         // Ouputting the remaining time left
         if remainingTime == nil {
-            timeRemainingLabel.text == "Something is wrong with the date :("
+            timeRemainingLabel.text = "Something is wrong with the date :("
         } else if questPastDue == false {
             timeRemainingLabel.textColor = UIColor.blackColor()
             timeRemainingLabel.text = "\(remainingTime!.day) \(dayPlural), \(remainingTime!.hour) \(hourPlural), \(remainingTime!.minute) \(minutePlural)"
